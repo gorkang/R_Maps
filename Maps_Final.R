@@ -3,8 +3,8 @@
 
 # Load libraries ----------------------------------------------------------
   
-  library(pacman)
-  p_load(ggplot2, ggmap, tidyverse, ggrepel, stringr, lme4)
+  if (!require('pacman')) install.packages('pacman'); library('pacman')
+  p_load(ggplot2, ggmap, tidyverse, ggrepel, stringr)
 
 
 
